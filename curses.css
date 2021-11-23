@@ -169,3 +169,10 @@
 .enjoy-button:hover {
     transform: scale(1.1);
 }
+
+.footer {
+    text-align: center;
+    font-family: Comfortaa, sans-serif;
+    font-size: .8rem;
+    margin: 10px;
+}
