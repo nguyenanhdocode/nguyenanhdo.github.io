@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Pacifico&family=Roboto:wght@100;400&display=swap');
+:root {
+    --black-text: #444444;
+    --white-text: #fafafa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAEBE0;
+    font-size: 62.5%;
+}
+
+.card {
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2) ;
+    border-radius: 8px;
+    padding: 10px;
+}
+

@@ -1,0 +1,69 @@
+@import url('base.css');
+.wrapper {
+    text-align: center;
+}
+
+@keyframes button_bigger {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes welcome {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.welcome {
+    animation-name: welcome;
+    animation-duration: 2s;
+    transition-delay: 15;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 5rem;
+    color: var(--black-text);
+    margin: 250px 0 50px 0;
+}
+
+.button {
+    background-color: #B5CDA3;
+    max-height: 100px;
+    max-width: 240px;
+    padding: 0 15px 0 15px;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: 0 0px 12px 0 rgba(0, 0, 0, 0.2);
+    animation-name: button_bigger;
+    animation-duration: 2s;
+    font-family: 'Comfortaa', sans-serif;
+    color: var(--black-text);
+    font-size: 3rem;
+    text-decoration: none;
+    line-height: 100px;
+    color: var(--white-text);
+    display: flex;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+
+.button img {
+    height: 60px;
+    width: auto;
+    margin: 20px 0 0 0;
+}
+
+.button p {
+    padding: 0 0 0 8px;
+}
+
+
+.button:hover {
+    transform: scale(1.2);
+}
