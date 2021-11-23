@@ -9,7 +9,15 @@
     }
 }
 
+@keyframes appearance {
+    from {
+        opacity: 0;
+    }
 
+    to {
+        opacity: 1;
+    }
+}
 
 .top {
     display: flex;
@@ -21,7 +29,6 @@
 }
 
 .card-img {
-    /* max-width: 180px; */
     width: 150px;
     border-radius: 4px;
 }
@@ -46,16 +53,6 @@
     margin: 0 auto;
     font-family: Roboto, sans-serif;
     cursor: pointer;
-}
-
-@keyframes appearance {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
 }
 
 .post {
@@ -132,6 +129,10 @@
     width: 100%;
 }
 
+#van img {
+    width: 300px;
+}
+
 .reactions {
     display: flex;
     padding: 10px;
@@ -145,4 +146,26 @@
 .reactions img {
     max-width: 24px;
     max-height: 24px;
+}
+
+.enjoy-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--white-text);
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #FFBF86;
+    max-height: 100px;
+    min-width: 400px;
+    max-width: 500px;
+    padding: 15px 35px;
+    border-radius: 50px;
+    margin: 10px auto;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2) ;
+    transition: transform 0.2s;
+}
+
+.enjoy-button:hover {
+    transform: scale(1.1);
 }
